@@ -1,0 +1,189 @@
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Nixie One', cursive;
+	font-family: 'Crushed', cursive;
+	font-family: 'Raleway', sans-serif;
+}
+*{
+	outline: none;
+}
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+.top-tab li{
+	margin: 20px 5px;
+	padding: 0;
+}
+.top-tab li a{ /*navbar buttons*/
+	color: #fff !important;
+	font-size: 25px;
+	padding: 5px 15px;
+	text-shadow: 0 0 10px #000;
+	font-family: 'Raleway';
+	font-variant: small-caps;
+	letter-spacing: 2px;
+}
+.top-tab{
+	margin-right: 100px;
+}
+.header-container{
+	width: 100%;
+	margin: 0 !important;
+	padding: 0 !important;
+	position: relative;
+	top: 0; left: 0; bottom: 0; right: 0;
+	z-index: 0;
+	height: 100vh;
+    background: transparent;
+}
+.header-text-container{
+	z-index: 999;
+	color: #fff;
+	width: 50%;
+	height: 50%;
+	overflow: hidden;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+.header-text-container h1{ /*TWT*/
+	font-size: 60px;
+	text-shadow: 0 0 10px #000;
+	font-family: 'Nixie One';
+}
+ul li button{ /*discover & read more*/
+	padding: 10px 20px;
+	border: solid 3px #fff;
+	font-size: 25px;
+	background-color: transparent;
+	margin: 20px 50px;
+	text-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;
+	transition: all 300ms;
+	font-family: 'Raleway';
+	letter-spacing: 2px;
+}
+ul li button:hover{
+	transition: all 300ms;
+	color: #222;
+	text-shadow: 0 0 10px #fff;
+	box-shadow: 0 0 10px #fff;
+	border-color: #222;
+}
+.scrolldown{
+	z-index: 999;
+	width: 6%;
+	height: 12%;
+	overflow: hidden;
+	margin: 0 auto;
+	position: absolute;
+	left: 0; bottom: 0; right: 23px;
+}
+.scrolldown a{
+	color: #fff;			
+	text-shadow: 0 0 10px #000;
+	transition: all 300ms;
+}
+.scrolldown a:hover{
+	color: #222;
+	text-shadow: 0 0 10px #fff;
+	transition: all 300ms;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.navbar-default .navbar-nav>.active>a{
+	background-color: transparent;
+	border-bottom: solid 1px #fff;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+	background-color: transparent;
+}
+.h1container{
+	width: 700px;
+	height: 40px;
+	border-bottom: 2px solid #330000;
+	text-align: center;
+	margin: 0 auto;
+}
+.h1container span{ /*our story*/
+	color: #222;
+	background-color: #fff;
+	padding: 0 20px;
+	font-size: 50px;
+	font-family: 'Nixie One';
+	font-style: italic;
+}
+
+	.ourstory-desc{ /*our story description*/
+		font-family: 'Roboto';
+		padding-bottom: 3px;
+	}
+	.wholesomefood-text, .who-text{ /*Wholesome food text*/
+		font-family: 'Raleway';
+	}
+	.wholesome-desc, .who-desc, .ourmenu-desc{ /*Wholesome food description*/
+		font-family: 'Roboto';
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+	.view-menu-link{
+		font-family: 'Raleway';
+	}
+	.view-menu-link:hover{
+		text-decoration: underline;
+	}
+
+.row-spacing{
+	margin-top: 80px;
+}
+.row-spacing2{
+	margin-top: 20px;
+}
+.row-padding{
+	padding: 0 15px;
+	margin-top: 50px; 
+
+}
+#about,#menu,#truehome{
+	padding-top: 50px;
+}
+#contact{
+	background-color: #1a1a1a;
+	padding-bottom: 30px;
+}
+.contact-h1{
+	color: #fff;
+	font-family: 'Raleway'; /*contact titles*/
+}
+.get-connected{ /*get connected p*/
+	color: #737373;
+}
+.journey{
+	border: solid 2px #ccc;
+	font-size: 20px;
+	background-color: transparent;
+	color: #ccc;
+	padding: 5px 10px;
+}
+.message-text{
+	height: 100px !important;
+	resize: none;
+}
+.spork{
+	height: 45%;
+	width: 45%;
+}
+.fb, .ig{
+	padding-right: 50px;
+}
+.twit{
+	height: 6%;
+	width: 6%;
+}
+.tagline{
+	font-family: 'Raleway';
+}
